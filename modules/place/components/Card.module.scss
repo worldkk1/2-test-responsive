@@ -1,0 +1,37 @@
+.card {
+  background-color: blanchedalmond;
+  width: 225px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardHeadear {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  p {
+    text-align: center;
+    margin: -10px 20% 0;
+    background-color: aqua;
+  }
+}
+
+.cardBody {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cardTag {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding-top: 20px;
+}
